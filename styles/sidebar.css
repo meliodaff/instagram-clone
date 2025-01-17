@@ -1,0 +1,127 @@
+nav{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 245px;
+    color: white;
+    font-family: Arial;
+    border-right: solid 1px rgb(36, 36, 36);
+}
+
+
+.instagram-icon{
+    height: 50px;
+    padding-top: 30px;
+    padding-left: 23px;
+    margin-bottom: 27px;
+}
+
+
+
+.home-icon-container, 
+.search-icon-container, 
+.explore-icon-container, 
+.messages-icon-container, 
+.reels-icon-container,
+.notifications-icon-container,
+.create-icon-container,
+.current-user-container,
+.more-icon-container
+{
+    display: flex;
+    align-items: center;
+    padding-top: 13px;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-size: 16px;
+    transition: background-color .15s;
+    width: 230px;
+    margin-left: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    padding-left: px;
+}
+
+
+.home-icon, 
+.search-icon, 
+.explore-icon, 
+.messages-icon, 
+.reels-icon,
+.notifications-icon,
+.create-icon{
+    height: 23px;
+    padding-right: 20px;
+    padding-left: 23px;
+}
+
+.more-icon{
+    height: 25px;
+    padding-right: 20px;
+    padding-left: 23px;
+}
+
+.more-icon-container{
+    margin-top: 70px;
+    font-size: 18px;
+}
+
+.more{
+    margin-top: 2px;
+}
+
+.home-icon-container:hover, 
+.search-icon-container:hover, 
+.explore-icon-container:hover, 
+.messages-icon-container:hover, 
+.reels-icon-container:hover,
+.notifications-icon-container:hover,
+.create-icon-container:hover,
+.current-user-container:hover,
+.more-icon-container:hover{
+    background-color: rgb(33, 33, 33);
+}
+
+.current-user-image{
+    height: 25px;
+    width: 25px;
+    object-fit: cover;
+    border-radius: 100%;
+    padding-right: 15px;
+    padding-left: 23px;
+}
+
+
+.home-icon-container{
+    font-weight: bold;
+}
+
+.notification-count{
+    position: absolute;
+    top: 5px;
+    left: 34px;
+    background-color: red;
+    border: 2px solid black;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+}
+
+.notification-reminder{
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+    background-color: red;
+    top: 10px;
+    left: 40px;
+    border: solid 2px black;
+}
