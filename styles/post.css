@@ -1,0 +1,32 @@
+.post{
+    margin-top: -295px; 
+    margin-left: 70px;
+}
+
+.post-header{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    width: 468px;
+}
+
+.author-profile{
+    height: 35px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-right: 10px;
+    border: solid lightgreen 2px;
+    padding: 2px;
+}
+
+.post-picture{
+    height: 475px;
+}
+
+.settings{
+    height: 20px;
+}
+
+.author-name span{
+    color: gray;
+}

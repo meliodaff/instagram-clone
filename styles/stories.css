@@ -25,6 +25,8 @@
     border-left-color: #F58529;
     margin-bottom: 8px;
     padding: 2px;
+    cursor: pointer;
+
 }
 
 .story-container .close-friend{
@@ -51,3 +53,6 @@
     width: 15px;
 }
 
+.username{
+    cursor: pointer;
+}

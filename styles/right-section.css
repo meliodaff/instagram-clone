@@ -1,0 +1,127 @@
+.right-section-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -65px;
+    align-items: center;
+    width: 990px;
+}
+
+.current-user-profile{
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.username1{
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.name{
+    font-size: 13px;
+    color: gray;
+    margin-top: 2px;
+}
+
+.switch{
+    color: #0095F6;
+    font-size: 12.5px;
+    margin-left: 123px;
+    cursor: pointer;
+}
+
+.switch:hover{
+    color: #c3e7ff;
+}
+
+.suggested-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 990px;
+    padding-top: 15px;
+    margin-bottom: 13px;
+}
+
+.header{
+    display: flex;
+    margin-top: 11px;
+    align-items: center;
+}
+
+.suggested-for-you{
+    font-size: 14px;
+    color: rgb(180, 180, 180);
+}
+
+.see-all{
+    margin-left: 137px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.see-all:hover{
+    color: gray;
+}
+
+.suggested-profile-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 990px;
+    margin-bottom: 10px;
+}
+
+.profile-picture{
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.suggested-infos-container{
+    line-height: 18px;
+}
+
+.suggested-name{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.mutual-friends{
+    font-size: 12px;
+    color: gray;
+}
+
+.follow-container{
+    font-size: 12px;
+    margin-left: 20px;
+    color: blue;
+}
+
+.link-container{
+    width: 290px;
+    position: absolute;
+    right: 148px;
+    line-height: 18px;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+
+
+.link-container span:hover{
+    text-decoration: underline gray;
+}
+
+.links{
+    cursor: pointer;   
+    color: gray;
+}
+
+.copyright{
+    margin-top: 15px;
+    color: gray;
+    font-size: 12px;
+}
+
