@@ -9,3 +9,8 @@ body{
 div{
     color: white;
 }
+
+.dark-mode{
+    background-color: white;
+    color: black;
+}
