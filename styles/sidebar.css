@@ -8,6 +8,7 @@ nav{
     color: white;
     font-family: Arial;
     border-right: solid 1px rgb(36, 36, 36);
+    transition: .5s;
 }
 
 
